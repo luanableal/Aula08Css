@@ -1,0 +1,154 @@
+#center_align{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+#center{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+#vertical{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#vertical_start{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+#vertical_center{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 5px;
+}
+
+#vertical_flex_end{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    gap: 5px;
+}
+
+#vertical_stretch{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    gap: 5px;
+}
+
+#vertical_baseline{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap: 5px;
+}
+
+#horizontal{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#horizontal_start{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+#horizontal_center{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    gap: 5px;
+}
+
+#horizontal_flex_end{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    gap: 5px;
+}
+
+#horizontal_stretch{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction:row;
+    align-items:stretch;
+    gap: 5px;
+}
+
+#horizontal_baseline{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    display: flex;
+    flex-direction:row;
+    align-items:baseline;
+    gap: 5px;
+}
+
+.first{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+}
+
+.second{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.third{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
